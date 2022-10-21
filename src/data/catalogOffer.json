@@ -1,0 +1,188 @@
+{
+  "data": {
+    "Catalog": {
+      "catalogOffer": {
+        "title": "A Plague Tale: Requiem",
+        "id": "28678d007f3d4440b7a7365b04c5fc2e",
+        "namespace": "64ae027afbd145d9b6e62bd96967fe66",
+        "countriesBlacklist": null,
+        "countriesWhitelist": null,
+        "developerDisplayName": "Asobo Studio",
+        "description": "Continúa la galardonada aventura inicial y acompaña a Amicia y a su hermano Hugo en una nueva e intensa misión en busca de esperanza bajo la amenaza de una terrible maldición.",
+        "effectiveDate": "2022-10-17T22:00:00.000Z",
+        "expiryDate": null,
+        "viewableDate": "2022-10-17T22:00:00.000Z",
+        "allowPurchaseForPartialOwned": true,
+        "offerType": "BASE_GAME",
+        "externalLinks": null,
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+          {
+            "type": "CodeRedemption_340x440",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/a89aabfe-311a-4c5f-b961-1607860e7996_1200x1600-98f9fd41d86634c1f82e4b5cbfc4e83f"
+          },
+          {
+            "type": "Thumbnail",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale1_1200x1600-98f9fd41d86634c1f82e4b5cbfc4e83f"
+          },
+          {
+            "type": "OfferImageTall",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale1_1200x1600-98f9fd41d86634c1f82e4b5cbfc4e83f"
+          },
+          {
+            "type": "DieselStoreFrontTall",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale1_1200x1600-98f9fd41d86634c1f82e4b5cbfc4e83f"
+          },
+          {
+            "type": "OfferImageWide",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale2_2560x1440-f5840bd8286204cb20ae573e160c29f3"
+          },
+          {
+            "type": "DieselStoreFrontWide",
+            "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/PlagueTale2_2560x1440-f5840bd8286204cb20ae573e160c29f3"
+          }
+        ],
+        "longDescription": null,
+        "seller": {
+          "id": "o-wt4zxeetmq6jem7qp4pkssr46aenj5",
+          "name": "Focus Home"
+        },
+        "productSlug": "a-plague-tale-requiem",
+        "publisherDisplayName": "Focus Entertainment",
+        "releaseDate": "2022-10-17T22:00:00.000Z",
+        "urlSlug": "projectoutburstgeneralaudience-02",
+        "url": null,
+        "tags": [
+          {
+            "id": "1216",
+            "name": "Acción",
+            "groupName": "genre"
+          },
+          {
+            "id": "1370",
+            "name": "Un solo jugador",
+            "groupName": "feature"
+          },
+          {
+            "id": "9547",
+            "name": "Windows",
+            "groupName": "platform"
+          },
+          {
+            "id": "1117",
+            "name": "Aventura",
+            "groupName": "genre"
+          }
+        ],
+        "items": [
+          {
+            "id": "dd2e549d5c474f21ae04aa76f185f9fd",
+            "namespace": "64ae027afbd145d9b6e62bd96967fe66",
+            "releaseInfo": []
+          }
+        ],
+        "customAttributes": [
+          {
+            "key": "com.epicgames.app.blacklist",
+            "value": "[]"
+          },
+          {
+            "key": "com.epicgames.app.productSlug",
+            "value": "a-plague-tale-requiem"
+          }
+        ],
+        "categories": [
+          {
+            "path": "games"
+          },
+          {
+            "path": "games/edition/base"
+          },
+          {
+            "path": "games/edition"
+          },
+          {
+            "path": "applications"
+          }
+        ],
+        "catalogNs": {
+          "ageGatings": [
+            {
+              "ageControl": 18,
+              "descriptor": "폭력성, 공포, 언어의 부적절성",
+              "elements": null,
+              "gameRating": "청소년이용불가",
+              "ratingImage": "https://cdn1.epicgames.com/salesEvent/salesEvent/grac_18_217x256-f30f31671bede02ec5d7eb913af1fc87",
+              "ratingSystem": "GRAC",
+              "title": "청소년이용불가"
+            }
+          ],
+          "displayName": "PROJECT OUTBURST",
+          "mappings": [
+            {
+              "createdDate": "2022-10-17T21:53:32.519Z",
+              "deletedDate": null,
+              "mappings": {
+                "cmsSlug": null,
+                "offerId": "7588f6baf8684805b60b9a431eea408c",
+                "prePurchaseOfferId": null
+              },
+              "pageSlug": "a-plague-tale-requiem--protector-pack",
+              "pageType": "addon--cms-hybrid",
+              "productId": "eddb818e30d34bc9bae4e83cf04a9514",
+              "sandboxId": "64ae027afbd145d9b6e62bd96967fe66",
+              "updatedDate": "2022-10-17T21:53:32.519Z"
+            },
+            {
+              "createdDate": "2021-08-05T15:02:05.238Z",
+              "deletedDate": null,
+              "mappings": {
+                "cmsSlug": "a-plague-tale-requiem/home",
+                "offerId": null,
+                "prePurchaseOfferId": null
+              },
+              "pageSlug": "a-plague-tale-requiem",
+              "pageType": "productHome",
+              "productId": "eddb818e30d34bc9bae4e83cf04a9514",
+              "sandboxId": "64ae027afbd145d9b6e62bd96967fe66",
+              "updatedDate": "2022-10-21T15:07:32.939Z"
+            }
+          ],
+          "store": "EGS"
+        },
+        "offerMappings": [],
+        "pcReleaseDate": "2022-10-17T22:00:00.000Z",
+        "prePurchase": false,
+        "approximateReleasePlan": null,
+        "price": {
+          "totalPrice": {
+            "discountPrice": 2999,
+            "originalPrice": 2999,
+            "voucherDiscount": 0,
+            "discount": 0,
+            "currencyCode": "USD",
+            "currencyInfo": {
+              "decimals": 2
+            },
+            "fmtPrice": {
+              "originalPrice": "29,99 US$",
+              "discountPrice": "29,99 US$",
+              "intermediatePrice": "29,99 US$"
+            }
+          },
+          "lineOffers": [
+            {
+              "appliedRules": []
+            }
+          ]
+        },
+        "allDependNsOfferIds": null,
+        "majorNsOffers": [],
+        "subNsOffers": [],
+        "status": "ACTIVE",
+        "refundType": "SELF_REFUNDABLE"
+      }
+    }
+  },
+  "extensions": {}
+}
