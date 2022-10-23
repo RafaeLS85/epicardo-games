@@ -1,16 +1,12 @@
-import React, { useState } from "react";
-import { Menu } from "./Menu";
+import { useState } from "react";
+import './Navbar.css'
 
 interface Props {
   fixed: boolean;
 }
 
 export default function Navbar({ fixed }: Props) {
-  const [active, setActive] = useState(true);
-
-  function handleOnClick(){
-    setActive(!active)
-  }
+  const [active, setActive] = useState(false);
   
   return (
     <>
@@ -18,63 +14,51 @@ export default function Navbar({ fixed }: Props) {
         <div className="container mx-0 flex flex-wrap  items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <ul className="flex flex-col items-center  lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
+              <li className="">
                 <a
                   className="leading-relaxed inline-block whitespace-nowrap uppercase"
                   href="#"
                 >
                   <img
-                    src="/public/logo.png"
+                    src="/logo.png"
                     alt="epicardo logo"
-                    className="w-10  ml-3 pt-2  top-0"
+                    className="w-16 ml-3 pt-2 top-0"
                   />
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:text-white hover:border-b-2"
+              <a
+                  className="px-auto py-6 flex items-center  uppercase font-bold leading-snug"
                   href="#"
                 >
-                  <i className="fab fa-twitter leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Tienda</span>
+                  <p className="ml-2 text-sm">Tienda</p>
+              </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-auto py-6 flex items-center  uppercase font-bold leading-snug"
+                  href="#"
+                >
+                  <p className="ml-2 text-sm">Preguntas Frecuentes</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center  uppercase font-bold leading-snug  hover:text-white hover:border-b-2"
+                  className="px-auto py-6 flex items-center  uppercase font-bold leading-snug"
                   href="#"
                 >
-                  <i className="fab fa-pinterest leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Preguntas Frecuentes</span>
+                  <p className="ml-2 text-sm">Ayuda</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center  uppercase font-bold leading-snug hover:text-white hover:border-b-2"
+                  className="px-auto py-6  flex items-center  uppercase font-bold leading-snug"
                   href="#"
                 >
-                  <i className="fab fa-pinterest leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Ayuda</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center  uppercase font-bold leading-snug  hover:text-white hover:border-b-2"
-                  href="#"
-                >
-                  <i className="fab fa-pinterest leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Unreal Engine</span>
+                  <p className="ml-2 text-sm">Unreal Engine</p>
                 </a>
               </li>
             </ul>            
-
-            {/* <button
-              className="cursor-pointer leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i className="fas fa-bars"></i>
-            </button> */}
           </div>
           <div
             className={"lg:flex flex-grow items-center"}
@@ -83,27 +67,29 @@ export default function Navbar({ fixed }: Props) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:text-white hover:border-b-2"
+                  className="px-auto py-6  flex items-center uppercase font-bold leading-snug"
                   href="#"
                 >
-                  <i className="fab fa-facebook-square leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Iniciar Sesion</span>
+                  <p className="ml-2 text-sm">Iniciar Sesion</p>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item get-epic">
                 <a
-                  className="px-3 py-2 flex items-center uppercase font-bold leading-snug hover:text-white hover:border-b-2"
+                  className="px-auto py-6  flex items-center uppercase font-bold leading-snug"
                   href="#"
                 >
-                  <i className="fab fa-twitter leading-lg opacity-75"></i>
-                  <span className="ml-2 text-sm">Consigue Epicardo Games</span>
+                  <p className="ml-2 text-sm">Consigue Epicardo Games</p>
                 </a>
               </li>
             </ul>
+            {/* <button className={`btn ${active ? "active" : ""}`} onClick={() => setActive(!active)}>
+              <div></div>
+              <div></div>
+              <div></div>
+            </button>  */}
           </div>
         </div>
-        <div>
-            {active ?  <Menu onClick={handleOnClick} active={active} /> : null}
+        <div>         
           
         </div>
       </nav>

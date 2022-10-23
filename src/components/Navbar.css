@@ -1,3 +1,13 @@
+.nav-item:hover {
+    border-bottom-width: 4px;
+    border-bottom-color: #0078f2;
+    color: white;
+}
+
+.get-epic{
+    background-color: #0078f2;
+}
+
 .btn {
     display: flex;
     flex-direction: column;
